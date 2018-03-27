@@ -2,7 +2,8 @@
   "name": "govuk-styled-system",
   "version": "0.0.1",
   "description": "govuk-frontend theme for styled-system",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "scripts": {
     "build": "nwb build-web-module",
     "clean": "nwb clean-module",
@@ -27,5 +28,8 @@
   "homepage": "https://github.com/penx/govuk-styled-system#readme",
   "devDependencies": {
     "nwb": "^0.21.5"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
