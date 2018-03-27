@@ -1,6 +1,6 @@
 {
   "name": "govuk-styled-system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "govuk-frontend theme for styled-system",
   "main": "lib/index.js",
   "module": "es/index.js",
