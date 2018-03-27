@@ -1,0 +1,31 @@
+{
+  "name": "govuk-styled-system",
+  "version": "0.0.1",
+  "description": "govuk-frontend theme for styled-system",
+  "main": "index.js",
+  "scripts": {
+    "build": "nwb build-web-module",
+    "clean": "nwb clean-module",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/govuk-styled-system.git"
+  },
+  "keywords": [
+    "styled-system",
+    "CSSinJS",
+    "govuk"
+  ],
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penx/govuk-styled-system/issues"
+  },
+  "homepage": "https://github.com/penx/govuk-styled-system#readme",
+  "devDependencies": {
+    "nwb": "^0.21.5"
+  }
+}
